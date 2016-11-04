@@ -1,0 +1,322 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "tahoma","arial","Microsoft YaHei";
+	font-size: 14px;
+}
+ul,li,a,a:hover{
+	text-decoration: none;
+	list-style-type: none;
+}
+.clear {
+	zoom: 1;
+}
+.clear:after {
+	content: "";
+	display: block;
+	clear: both;
+	overflow: hidden;
+	height: 0;
+}
+
+/*------------------------------------------ 字体 ------------------------------------------*/
+@font-face { 
+	font-family: xiangsijian;  
+	src: url("../others/xiangsijian.ttf");
+} 
+@font-face { 
+	font-family: lilin;  
+	src: url("../others/lilin.TTF");
+}
+@font-face { 
+	font-family: lilina;  
+	src: url("../others/lilina.TTF");
+}
+@font-face { 
+	font-family: BRADHITC;  
+	src: url("../others/BRADHITC.fon");
+}
+@font-face { 
+	font-family: BRADHITCb;  
+	src: url("../others/BRADHITCb.TTF");
+}
+/*------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------- 栏目标题 ----------------------------------------*/
+.title01 {
+	width: 100%;
+	/*margin-top: 5px;*/
+	background:-moz-linear-gradient(top,rgba(255,255,255,1),rgba(255,255,255,0.7),rgba(255,255,255,0.5),rgba(255,255,255,0.3),rgba(255,255,255,0));
+	background:-webkit-linear-gradient(top,rgba(255,255,255,1),rgba(255,255,255,0.7),rgba(255,255,255,0.5),rgba(255,255,255,0.3),rgba(255,255,255,0));
+	background:-o-linear-gradient(top,rgba(255,255,255,1),rgba(255,255,255,0.7),rgba(255,255,255,0.5),rgba(255,255,255,0.3),rgba(255,255,255,0));
+}
+.title01 span {
+	width: 70%;
+	text-shadow:2px 2px 0 rgb(255,255,255);  
+	display: block;
+	font-family: lilin;
+	font-size: 50px;
+	padding: 20px 0;
+}
+.title02 {
+	width: 100%;
+	font-family: xiangsijian;
+	font-size: 30px;
+	text-align: left;
+	padding: 10px 0;
+	border-bottom: 1px solid rgb(147,147,147);
+}
+.title02 span {
+	text-shadow:2px 2px 0 rgb(255,255,255); 
+	font-family: xiangsijian;
+	font-size: 40px;
+	color: rgb(255,0,0);
+	padding: 10px 0;
+}
+/*------------------------------------------------------------------------------------------*/
+
+/*------------------------------------------ 头像 ------------------------------------------*/
+.touxiang {
+	width: 100px;
+	height: 150px;
+	border: 2px solid rgba(0,0,0,0.7);
+	border-radius: 50px;
+	position: relative;
+	overflow: hidden;
+}
+/*------------------------------------------------------------------------------------------*/
+
+/*------------------------------------------ menu ------------------------------------------*/
+body header nav .menu {
+	width: 300px;
+	height: 80px;
+	line-height: 80px;
+	color: #fff;
+	float: right;
+	display: inline-block;
+}
+body header nav .menu #time {
+	width: 160px;
+	height: 60px;
+	display: inline-block;
+}
+body header nav .menu a {
+	color: #fff;
+}
+/*------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------- 前往按钮 ----------------------------------------*/
+.bottom {
+	width: 100%;
+	height: 30px;
+}
+.bottom .border {
+	width: 90%;
+	height: 29px;
+	border-bottom: 1px solid rgb(200,200,200);
+	display: inline-block;
+}
+.bottom button {
+	width: 10%;
+	height: 30px;
+	border: none;
+	background: rgb(100,100,100);
+	transition-duration: 0.7s;
+	display: inline-block;
+	float: right;
+	padding: 0
+}
+.bottom button:hover {
+	background: rgb(200,200,200);
+}
+.bottom button a {
+	width: 100%;
+	height: 30px;
+	color: #fff;
+	transition-duration: 0.7s;
+	line-height: 30px;
+	text-align: center;
+	display: inline-block;
+}
+.bottom button a:hover {
+	color: #4843f9;
+}
+/*------------------------------------------------------------------------------------------*/
+
+/*------------------------------------------ logo ------------------------------------------*/
+body header nav .logo {
+	width: 200px;
+	height: 80px;
+	margin: 0 10px 0;
+	text-align: center;
+	color: #fff;
+	font-family: lilin;
+	font-size: 34px;
+	display: inline-block;
+} 
+body header nav .logo span {
+	height: 80px;
+	line-height: 80px;
+	font-family: lilin;
+	font-size: 52px;
+}
+/*------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------- 访问按钮 ----------------------------------------*/
+#fangwen {
+	width: 182px;
+	height: 35px;
+	position: relative;
+	overflow: hidden;
+}
+#fangwen li{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	border-radius: 50%;
+	overflow: hidden;
+	transition-duration: 1s;
+	background: rgba(0,0,255,0);
+}
+#fangwen li:hover {
+	background: rgba(0,0,255,0.5);
+}
+#fangwen li a {
+	width: 30px;
+	height: 60px;
+	display: block;
+	position: absolute;
+	background: url("../images/img-sp.png");
+	transition-duration: 1s;
+	background-position-x: 3px;
+	background-position-y: 6px;
+}
+#fangwen li a:hover {
+	background-position-y: -24px;
+}
+#fangwen li #twitter { background-position-x: -28px; }
+#fangwen li #google_plus { background-position-x: -60px; }
+#fangwen li #pinterest { background-position-x: -97px; }
+#fangwen li #instagram { background-position-x: -127px; }
+/*------------------------------------------------------------------------------------------*/
+
+/*------------------------------------------ nav ------------------------------------------*/
+body header nav {
+	width: 100%;
+	height: 80px;
+	background: rgba(0,0,0,0.7);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 998;
+}
+body header nav ul {
+	width: 567px;
+	height: 80px;
+	margin: 0 10px 0;
+	position: absolute;
+	display: inline-block;
+	overflow: hidden;
+}
+body header nav ul li {
+	height: 80px;
+	padding: 0 10px;
+	display: inline-block;
+	float: left;
+}
+body header nav ul li a {
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	font-size: 14px;
+	display: block;
+	color: #ffffff;
+}
+body header nav ul li .nav_1:hover {
+	animation: lvse 1s 1;
+	position: absolute;
+	color: #ccc;
+}
+@keyframes lvse {
+	1% {
+		height: 80px;
+		color: #ffffff;
+	}
+	100% {
+		height: 160px;
+		line-height: 160px;
+		opacity: 0;
+	}
+}
+/*------------------------------------------------------------------------------------------*/
+
+/*----------------------------------------- footer -----------------------------------------*/
+body footer {
+	width: 70%;
+	height: 35px;
+	padding: 64px 15% ;
+	border-top: 1px solid rgb(200,200,200);
+	position: relative;
+	clear: both;
+}
+body footer #toatop {
+	width: 38px;
+	height: 38px;
+	background: url("../images/arrow.png");
+	position: absolute;
+	top: -20px;
+	left: 49%;
+	z-index: 999;
+}
+body footer #Icon {
+	width: 182px;
+	height: 35px;
+	float: right;
+}
+body footer #Icon li{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	float: left;
+	overflow: hidden;
+	border-radius: 50%;
+}
+body footer #Icon li:hover {
+	animation: lvses 1s 1;
+}
+@keyframes lvses {
+	1% {
+		background: rgba(0,0,255,0);
+	}
+	100% {
+		background: rgba(0,0,255,0.5);
+	}
+}
+body footer #Icon li a {
+	width: 30px;
+	height: 60px;
+	display: block;
+	overflow: hidden;
+	background: url("../images/img-sp.png");
+	background-position-x: 3px;
+	background-position-y: 7px;
+}
+body footer #Icon li a:hover {
+	animation: lvset 0.7s 1;
+}
+@keyframes lvset {
+	1% {
+		background-position-y: 6px;
+	}
+	100% {
+		background-position-y: -24px;
+	}
+}
+body footer #Icon li #twitter { background-position-x: -28px; }
+body footer #Icon li #google_plus { background-position-x: -60px; }
+body footer #Icon li #pinterest { background-position-x: -97px; }
+body footer #Icon li #instagram { background-position-x: -127px; }
+
+/*------------------------------------------------------------------------------------------*/

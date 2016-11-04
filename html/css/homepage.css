@@ -1,0 +1,133 @@
+@charset "utf-8";
+
+/*---------------------------------------- 个人介绍 ----------------------------------------*/
+body center table tbody tr td {
+	padding: 10px;
+	font-size: 14px;
+	color: rgba(0,0,0,0.7);
+}
+/*------------------------------------------------------------------------------------------*/
+
+/*------------------------------------------ 朋友 ------------------------------------------*/
+body center #Friends {
+	width: 100%;
+}
+body center #Friends .kuang{
+	width: 70%;
+	margin: 0 auto 10px auto;
+}
+body center #Friends .kuang .top {
+	width: 100%;
+}
+body center #Friends .kuang .top .topItem {
+	width: 23%;
+	padding: 10px;
+	display: inline-block;
+	vertical-align: top;
+}
+body center #Friends .kuang .top .topItem .image {
+	width: 255px;
+	height: 340px;
+	overflow: hidden;
+	display: block;
+	position: relative;
+}
+body center #Friends .kuang .top .topItem .image .img {
+	width: 100%;
+	position: absolute;
+	height: 100%;
+}
+body center #Friends .kuang .top .topItem .image .img img {width: 100%;}
+body center #Friends .kuang .top .topItem .image .Mask {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+body center #Friends .kuang .top .topItem .image .Mask .Mask_1 {
+	width: 350%;
+	height: 350%;
+	position: absolute;
+	transition-duration: 1s;
+	top: 0;
+	left: 0;
+}
+body center #Friends .kuang .top .topItem .image .Mask .Mask_1 .Mask_1_1 {
+	width: 50%;
+	height: 100%;
+	background: rgba(0,0,0,0.1);
+	transform: rotate(45deg);
+}
+body center #Friends .kuang .top .topItem .image .Mask .Mask_1:hover {
+	top: -145%;
+	left: -100%;
+}
+body center #Friends .kuang .top .topItem .image .Mask .Mask_1 #xianshi {
+	width: 25%;
+	height: 15%;
+	position: absolute;
+	top: 47%;
+	left: 30.5%;
+	opacity: 0;
+	transition-duration: 1s;
+}
+body center #Friends .kuang .top .topItem .image .Mask .Mask_1 #xianshi:hover {
+	opacity: 1;
+}
+body center #Friends .kuang .top .topItem .image .Mask .Mask_1 #xianshi #fangwen {
+	position: absolute;
+	left: 10%;
+	top: 10%;
+	border-bottom: 1px solid rgb(147,147,147);
+}
+body center #Friends .kuang .top .information {width: 100%;}
+body center #Friends .kuang .top .information span {
+	width: 100%;
+	padding: 10px 0;
+	font-family: lilin;
+	font-size: 16px;
+	display: block;
+}
+body center #Friends .kuang .top .information p {
+	width: 100%;
+	padding: 10px 0;
+	font-family: xiangsijian;
+	font-size: 16px;
+}
+/*------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------- 个性签名 ----------------------------------------*/
+body center #autograph {
+	width: 100%;
+	padding: 50px 0;
+	margin: 70px 0;
+	background: url("../images/qianming.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+body center #autograph p {
+	width: 80%;
+	padding: 25px 2.5%;
+	font-family: lilin;
+	font-size: 70px;
+	color: #000;
+	text-shadow:2px 2px 0 rgb(255,255,255); 
+	background: rgba(255,255,255,0.3);
+}
+/*------------------------------------------------------------------------------------------*/
+
+/*------------------------------------------ 任务 ------------------------------------------*/
+body center #task {
+	width: 100%;
+	margin: 0 auto 30px auto;
+}
+body center #task  #taskList {
+	width: 70%;
+	margin: 0 auto;
+}
+/*------------------------------------------------------------------------------------------*/

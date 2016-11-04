@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html" charset="utf-8">
+		<title>您好，欢迎进入后台管理！</title>
+
+		<link rel="stylesheet" type="text/css" href="../../css/base.css">
+		<link rel="stylesheet" type="text/css" href="../../css/Backstage.css">
+
+		<script type="text/javascript" charset="utf-8" src="../../js/base.js"></script>
+	</head>
+
+	<body onLoad="titleScroll()">
+		<header>
+			<div id="nav">
+				<div id="logo">
+					<span>老</span>街角
+				</div>
+
+				<p>欢迎进入后台管理！</p>
+				<div id="time" onLoad="startTime();"></div>
+			</div>
+		</header>
+
+		<content>
+			<div id="left">
+				<div class="caidan" id="user"><a href="user.html">用户管理</a></div>
+
+				<div class="caidan" id="gonggao">
+					<a href="#">公告管理</a>
+					<ul>
+						<li class="caidan"><a href="TJgonggao.html">公告添加</a></li>
+						<li class="caidan"><a href="SCgonggao.html">公告删除</a></li>
+					</ul>
+				</div>
+
+				<div class="caidan" id="huihua"><a href="huihua.html">会话管理</a></div>
+				<div class="caidan" id="luntan"><a href="luntan.html">论坛管理</a></div>
+				<div class="caidan" id="shangpin"><a href="SCshangpin.html">商品管理</a></div>
+				<div class="caidan" id="shangpin"><a href="banner.html">banner管理</a></div>
+			</div>
+
+			<div id="right">
+				<span id="span">后台管理须知</span>
+				<p class="p1">尊敬的管理员，您好！欢迎进入后台系统。</p>
+				<p class="p1">为了更好地对本站进行管理请遵守以下规定：</p>
+				<ul id="ul">
+					<li class="li">1.不得更改他人信息；</li>
+					<li class="li">2.不得私自删除他人账号；</li>
+					<li class="li">3.不得在本站任何地方宣传非法言论，违反国家律法；</li>
+					<li class="li">4.本站最多纪录为一个月，请按时维护；</li>
+					<li class="li">5.管理员账号只有管理员本人可以使用！</li>
+				</ul>
+			</div>
+		</content>
+
+		<footer style="position: fixed;bottom: 0;">
+			<div id="toatop"></div>
+			<div id="footer">Copyright © 2016.Company name All rights reserved.</div>
+
+			<ul id="Icon">
+				<li><a href="#" id="facebook"></a></li>
+				<li><a href="#" id="twitter"></a></li>
+				<li><a href="#" id="google_plus"></a></li>
+				<li><a href="#" id="pinterest"></a></li>
+				<li><a href="#" id="instagram"></a></li>
+			</ul>
+		</footer>
+	</body>
+</html>

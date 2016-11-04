@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html" charset="utf-8">
+		<title>后台管理-添加公告</title>
+
+		<link rel="stylesheet" type="text/css" href="../../css/base.css">
+		<link rel="stylesheet" type="text/css" href="../../css/Backstage.css">
+
+		<script type="text/javascript" charset="utf-8" src="../../js/base.js"></script>
+	</head>
+
+	<body onLoad="titleScroll()">
+		<header>
+			<div id="nav">
+				<div id="logo">
+					<span>老</span>街角
+				</div>
+
+				<p>欢迎进入后台管理！</p>
+				<div id="time" onLoad="startTime();"></div>
+			</div>
+		</header>
+
+		<content>
+			<div id="left">
+				<div class="caidan" id="user"><a href="user.html">用户管理</a></div>
+
+				<div class="caidan" id="gonggao">
+					<a href="#">公告管理</a>
+					<ul>
+						<li class="caidan"><a href="TJgonggao.html">公告添加</a></li>
+						<li class="caidan"><a href="SCgonggao.html">公告删除</a></li>
+					</ul>
+				</div>
+
+				<div class="caidan" id="huihua"><a href="huihua.html">会话管理</a></div>
+				<div class="caidan" id="luntan"><a href="luntan.html">论坛管理</a></div>
+				<div class="caidan" id="shangpin"><a href="SCshangpin.html">商品管理</a></div>
+				<div class="caidan" id="shangpin"><a href="banner.html">banner管理</a></div>
+			</div>
+
+			<div id="right"><form>
+				<label for="time">时间：</label>
+				<input type="text" name="time" />
+				<input type="time" name="time" />
+				<br />
+
+				<label for="message">内容：</label>
+				<textarea id="a02" name="message" placeholder="请输入您要发表的内容！"/></textarea>
+				<br />
+				<input type="submit" value="发表公告">
+			</form></div>
+		</content>
+
+		<footer style="position: fixed;bottom: 0;">
+			<div id="toatop"></div>
+			<div id="footer">Copyright © 2016.Company name All rights reserved.</div>
+
+			<ul id="Icon">
+				<li><a href="#" id="facebook"></a></li>
+				<li><a href="#" id="twitter"></a></li>
+				<li><a href="#" id="google_plus"></a></li>
+				<li><a href="#" id="pinterest"></a></li>
+				<li><a href="#" id="instagram"></a></li>
+			</ul>
+		</footer>
+		<script type="text/javascript" charset="utf-8" src="../../js/jquery-3.1.1.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="../../js/base.js"></script>
+	</body>
+</html>

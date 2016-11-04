@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: lilin,lilina;
+	font-size: 18px;
+	text-align: left;
+}
+body center {
+	width: 100%;
+	background: url("../images/beijing.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+body center #Gangstar {
+	width: 25%;
+	display: inline-block;
+	clear: both;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	vertical-align: bottom;
+}
+body center #Gangstar img {
+	width: 100%;
+	vertical-align: bottom;
+}
+body center #zhuce {
+	width: 45%;
+	display: inline-block;
+	vertical-align: top;
+	margin: 100px 0 30px;
+}
+body center #zhuce #account {
+	width: 100%;
+	display: block;
+	background: rgba(255,255,255,0.5);
+	border: 1px solid rgba(147,147,147,0.7);
+	padding: 0 20px 30px;
+	position: relative;
+}
+body center #zhuce #account #img {
+	width: 150px;
+	height: 150px;
+	border: 1px solid rgba(147,147,147,0.7);
+	overflow: hidden;
+	padding: 3px;
+	position: absolute;
+	top: 5%;
+	left: 70%;
+
+}
+body center #zhuce #account legend {
+	width: 150px;
+	height: 30px;
+	padding: 0 20px;
+	line-height: 30px;
+	background: rgba(255,255,255,0.5);
+	border: 1px solid rgba(147,147,147,0.7);
+}
+body center #zhuce #account label {
+	margin: 10px 0;
+	padding: 1%;
+}
+body center #zhuce #account input {
+	margin: 10px 0;
+	padding: 1%;
+}
+body center #zhuce #account input[type="text"],body center #zhuce #account input[type="password"] {
+	background: none;
+	border: none;
+	border-bottom: 1px solid rgb(147,147,147);
+}

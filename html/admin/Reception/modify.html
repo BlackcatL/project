@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html" charset="utf-8">
+		<title>请您注册</title>
+
+		<link rel="stylesheet" type="text/css" href="../../css/base.css">
+		<link rel="stylesheet" type="text/css" href="../../css/Login02.css">
+
+		<script type="text/javascript" charset="utf-8" src="../../js/base.js"></script>
+		<script type="text/javascript" charset="utf-8" src="../../js/.js"></script>
+	</head>
+
+	<body onLoad="titleScroll()">
+		<header>
+			<nav>
+				<!-- logo -->
+				<div class="logo">
+					<span>老</span>街角
+				</div>
+				<!-- //logo -->
+
+				<!-- nav -->
+				<ul>
+					<li>
+						<a class="nav_1" href="#">>> 用户注册</a>
+						<a class="nav_2" href="#">>> 用户注册</a>
+					</li>
+				</ul>
+				<!-- //nav -->
+
+				<!-- 登录 -->
+				<div class="menu">
+					<div id="time" onLoad="startTime();"></div>
+				</div>
+				<!-- //登录 -->
+			</nav>
+		</header>
+
+		<center>
+			<div id="Gangstar"><img src="../../images/Gangstar.png"></div>
+			<!-- 注册 -->
+			<form action="../../php/Login.php" method="post" id="zhuce"><fieldset id="account">
+				<legend>请修改您的信息</legend>
+
+				<div id="img"></div>
+
+				<label for="userName">昵称：</label>
+				<input type="text" name="userName" required placeholder="请输入“昵称”"/><!--  “required”必填项 “placeholder”文字提示-->
+				<br />
+				
+				<label for="password01">密码：</label>
+				<input type="password" name="password01" required placeholder="请设置登录密码"/><!-- “password”密码 -->
+				<br />
+				<label for="password02">确认密码：</label>
+				<input type="password" name="password02" required placeholder="请设置登录密码"/>
+				<br />
+
+				<input type="radio" name="Sex" value="男">
+				<label for="Sex">男</label>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="radio" name="Sex" value="女">
+				<label for="Sex">女</label>
+				<br />
+
+				<label for="shenfenzheng">身份证号：</label>
+				<input type="text" name="shenfenzheng" required placeholder="请填写您的身份证号："/>
+				<br />
+
+				<label for="tel">电话：</label>
+				<input type="text" name="tel" required placeholder="请填写您的电话号："/>
+				<br />
+
+				<label for="QQ">QQ：</label>
+				<input type="text" name="QQ" required placeholder="请填写您的QQ号："/>
+				<br />
+
+				<label for="WeChat">微信：</label>
+				<input type="text" name="WeChat" required placeholder="请填写您的微信号："/>
+				<br />
+				
+				<label for="email">邮箱：</label>
+				<input type="text" name="email" required placeholder="请输入邮箱账号"/>
+				<br />
+
+				&nbsp;区域：&nbsp;&nbsp;
+				<input type="radio" name="region" value="寒梅岭">
+				<label for="region">寒梅岭</label>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="radio" name="region" value="幽兰谷">
+				<label for="region">幽兰谷</label>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="radio" name="region" value="傲竹峰">
+				<label for="region">傲竹峰</label>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="radio" name="region" value="孤菊峪">
+				<label for="region">孤菊峪</label>
+				<br />
+				
+				<label for="message">个性签名：</label>
+				<textarea id="a02" name="message" placeholder="您的个性签名"/></textarea>
+				<br />
+				
+				<input type="submit" value="注册"><!-- “submit”提交表单 -->
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="reset" value="取消"><!-- “reset”重置表单 -->
+			</fieldset></form>
+			<!-- //注册 -->
+		</center>
+
+		<footer>
+			<div id="toatop"></div>
+			<div id="footer">Copyright © 2016.Company name All rights reserved.</div>
+
+			<ul id="Icon">
+				<li><a href="#" id="facebook"></a></li>
+				<li><a href="#" id="twitter"></a></li>
+				<li><a href="#" id="google_plus"></a></li>
+				<li><a href="#" id="pinterest"></a></li>
+				<li><a href="#" id="instagram"></a></li>
+			</ul>
+		</footer>
+	</body>
+</html>

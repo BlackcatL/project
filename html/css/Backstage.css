@@ -1,0 +1,244 @@
+@charset "utf-8";
+
+body header {
+	width: 100%;
+	height: 80px;
+	background: rgba(0,0,0,0.7);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 998;
+}
+body header #nav {
+	width: 100%;
+	height: 80px;
+}
+/*------------------------------------------ logo ------------------------------------------*/
+body header #nav #logo {
+	width: 200px;
+	height: 80px;
+	margin: 0 10px 0;
+	text-align: center;
+	color: #fff;
+	font-family: lilin;
+	font-size: 34px;
+	display: inline-block;
+	float: left;
+} 
+body header #nav #logo span {
+	height: 80px;
+	line-height: 80px;
+	font-family: lilin;
+	font-size: 52px;
+}
+/*------------------------------------------------------------------------------------------*/
+
+/*----------------------------------------- title -----------------------------------------*/
+body header #nav p {
+	width: 200px;
+	height: 80px;
+	line-height: 80px;
+	color: #fff;
+	font-family: lilin;
+	font-size: 20px;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+/*------------------------------------------------------------------------------------------*/
+
+/*------------------------------------------ time ------------------------------------------*/
+body header #nav #time {
+	width: 210px;
+	height: 80px;
+	line-height: 80px;
+	color: #fff;
+	font-family: lilin;
+	display: inline-block;
+	float: right;
+}
+/*------------------------------------------------------------------------------------------*/
+
+/*------------------------------------------ left ------------------------------------------*/
+body content #left {
+	width: 15%;
+	height: 90%;
+	display: block;
+	vertical-align: top;
+	padding: 2.5% 2.5% 0;
+	position: fixed;
+	top: 80px;
+	left: 0;
+	background: rgba(0,0,0,0.6);
+}
+body content #left .caidan {
+	width: 100%;
+	display: inline-block;
+}
+body content #left #caidan01,body content #left #caidan02 {
+	width: 100%;
+	display: inline-block;
+}
+body content #left a {
+	width: 100%;
+	padding: 15px 0;
+	font-size: 18px;
+	display: block;
+	color: #fff;
+}
+body content #left a:active { color: #ddd; }
+/*------------------------------------------------------------------------------------------*/
+
+/*----------------------------------------- right -----------------------------------------*/
+body content #right {
+	width: 74%;
+	padding: 0 1.5%;
+	display: inline-block;
+	margin: 90px 0 20px 21%;
+}
+/*------------------------------------------------------------------------------------------*/
+
+/*----------------------------------------- 删除纪录 -----------------------------------------*/
+.jilu {
+	width: 95%;
+	padding: 5px 0 5px 5px;
+	margin: 10px 0;
+	background: rgb(100,100,100);
+}
+.jilu .neirong {
+	width: 78.5%;
+	line-height: 20px;
+	text-indent: 2em;
+	display: inline-block;
+	padding-left: 3px;
+	background: rgba(255,255,255,0.75);
+}
+.jilu .data {
+	width: 10%;
+	line-height: 20px;
+	color: #fff;
+	text-align: center;
+	vertical-align: top;
+	display: inline-block;
+	background: rgb(150,150,150);
+}
+.jilu .dlt {
+	width: 10%;
+	line-height: 20px;
+	color: #fff;
+	text-align: center;
+	vertical-align: top;
+	display: inline-block;
+	margin-right: 3px;
+	background: rgb(150,150,150);
+}
+/*------------------------------------------------------------------------------------------*/
+
+body footer { 
+	clear: both;
+	background: #fff;
+}
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------*/
+body content #right #span {
+	font-family: lilin;
+	font-size: 24px;
+	margin: 5px 0;
+}
+body content #right .p1 {
+	font-family: BRADHITC;
+	font-size: 20px;
+	margin: 5px 0;
+	text-indent: 2em;
+	text-shadow: 0 0 0 rgb(0,0,0);
+}
+body content #right #ul .li {
+	font-family: lilin;
+	font-size: 18px;
+	margin: 5px 0;
+	text-indent: 2em;
+}
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------*/
+body content #right .yonghu {
+	width: 30%;
+	margin: 10px 1%;
+	display: inline-block;
+	background: rgba(200,200,200,0.5);
+}
+body content #right .yonghu .zuo {
+	display: inline-block;
+	margin: 0 5px 0 0;
+}
+body content #right .yonghu .zuo .tu {
+	width: 100px;
+	height: 100px;
+	padding: 5px;
+	margin: 10px;
+	border-bottom: 1px solid rgb(147,147,147);
+}
+body content #right .yonghu .zuo .annvi {
+	height: 30px;
+	line-height: 20px;
+	text-align: center;
+}
+body content #right .yonghu .you {
+	display: inline-block;
+}
+body content #right .yonghu .you .id {
+	height: 40px;
+	line-height: 40px;
+	font-family: BRADHITC;
+	font-size: 24px;
+	text-shadow: 0 0 0 rgb(0,0,0);
+}
+body content #right .yonghu .you .zhuangtai {
+	height: 40px;
+	line-height: 40px;
+	font-family: lilin,lilina;
+	font-size: 20px;
+}
+body content #right .yonghu .you .name {
+	height: 40px;
+	line-height: 40px;
+	font-family: lilin,lilina;
+	font-size: 20px;
+}
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------*/
+content #right label {
+	width: 50px;
+	height: 30px;
+	line-height: 30px;
+	margin-bottom: 10px;
+	vertical-align: top;
+}
+content #right input {
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	margin-bottom: 10px;
+	padding: 0 3px;
+	vertical-align: top;
+}
+content #right textarea {
+	width: 70%;
+	height: 300px;
+	line-height: 30px;
+	margin-bottom: 10px;
+	padding: 0 3px;
+	vertical-align: top;
+	font-family: BRADHITC;
+	font-size: 18px;
+	text-shadow: 0 0 0 rgb(0,0,0);
+}

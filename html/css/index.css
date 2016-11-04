@@ -1,0 +1,196 @@
+@charset "utf-8";
+
+/*----------------------------------------- banner -----------------------------------------*/
+body header .banner {
+	width: 100%;
+	position: relative;
+	margin: 88px auto 0;
+	/*overflow: hidden;*/
+}
+body header .banner .banner_kuang {
+	height: 100%;
+	position: absolute;
+}
+body header .banner .banner_kuang li {
+	width: 100%;
+	display: inline-block;
+	float: left;
+}
+body header .banner .banner_kuang li img {
+	width: 100%;
+}
+body header .banner .banner_kuang li .title_1 {
+	width: 800px;
+	height: 50px;
+	position: absolute;
+	z-index: 3;
+}
+/*------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------- 站长介绍 ----------------------------------------*/
+body center table tbody tr td {
+	margin: 0;
+	padding: 10px;
+}
+body center table tbody tr td span {
+	font-family: lilin;
+	font-size: 14px;
+}
+body center table tbody tr td p {
+	font-size: 14px;
+	text-align: 20px;
+	text-indent: 2em;
+	margin: 10px 0;
+}
+body center table tbody tr td #qianming {
+	background: rgba(0,0,0,0.2);
+}
+/*------------------------------------------------------------------------------------------*/
+
+/*--------------------------------------- 管理员介绍 ---------------------------------------*/
+body center #admBack {
+	background: url("../images/jutou.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+body center #admBack .title01 {
+	width: 100%;
+	background:-moz-linear-gradient(top,rgba(255,255,255,0),rgba(255,255,255,0.7),rgba(255,255,255,0.5),rgba(255,255,255,0.3),rgba(255,255,255,0));
+	background:-webkit-linear-gradient(top,rgba(255,255,255,0),rgba(255,255,255,0.7),rgba(255,255,255,0.5),rgba(255,255,255,0.3),rgba(255,255,255,0));
+	background:-o-linear-gradient(top,rgba(255,255,255,0),rgba(255,255,255,0.7),rgba(255,255,255,0.5),rgba(255,255,255,0.3),rgba(255,255,255,0));
+}
+body center #admBack #administrators {
+	width: 70%;
+	margin: 10px auto;
+	display: inline-block;
+	background: rgba(255,255,255,0.5);
+}
+body center #admBack #administrators .adm {
+	width: 25%;
+	float: left;
+}
+body center #admBack #administrators .adm .touxiang{
+	text-align: center;
+	margin: 15px auto;
+}
+body center #admBack #administrators .adm span {
+	padding: 15px;
+	font-family: lilin;
+	font-size: 14px;
+	text-shadow:2px 2px 0 rgb(255,255,255);
+}
+body center #admBack #administrators .adm p {
+	padding: 15px;
+	font-family: ITCBLKAD;
+	font-size: 14px;
+	text-shadow:2px 2px 0 rgb(255,255,255);
+}
+/*------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------- 社区任务 ----------------------------------------*/
+body center #task {
+	width: 70%;
+	margin: 0 auto;
+}
+body center #task #taskArea {
+	width: 100%;
+}
+body center #task #taskArea .taskList {
+	width: 40%;
+	display: inline-block;
+	margin: 0 15px;
+	vertical-align: top;
+}
+body center #task #taskArea .taskList .taskList01 {
+	width: 100%;
+	border-top: 1px solid rgb(147,147,147);
+	margin-top: 3px;
+}
+body center #task #taskArea .taskList .taskList01 .taskItem {
+	width: 100%;
+	margin: 20px auto;
+	text-align: left;
+	display: block;
+}
+body center #task #taskArea .taskList .taskList01 .taskItem .touxiang {
+	margin-right: 25px; 
+	display: inline-block;
+}
+body center #task #taskArea .taskList .taskList01 .taskItem .juti {
+	text-align: left;
+	display: inline-block;
+	width: 50%;
+	vertical-align: top;
+}
+body center #task #taskArea .taskList .taskList01 .taskItem .juti .yonghu ,body center #task #taskArea .taskList .taskList01 .taskItem .juti .renwu ,.taskList .taskList01 .taskItem .juti .renwu .jutimiaoshu {
+	padding: 5px 0;
+	width: 100%;
+	font-size: 14px;
+	display: inline-block;
+}
+body center #task #taskArea .taskList .taskList01 #xiangmu .juti .miaoshu {
+	width: 100%;
+	height: 312px;
+	overflow: hidden;
+	position: relative;
+}
+body center #task #taskArea .taskList .taskList01 #xiangmu .juti .miaoshu #p {
+	width: 98%;
+	font-size: 14px;
+	text-indent: 2em;
+	float: left;
+	position: absolute;
+}
+body center #task #taskArea .taskList .taskList01 #xiangmu .juti .miaoshu #Area {
+	width: 2%;
+	height: 100%;
+	background: rgb(200,200,200);
+	float: left;
+	position: absolute;
+	left: 98%;
+	top: 0;
+}
+body center #task #taskArea .taskList .taskList01 #xiangmu .juti .miaoshu #Line {
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	color: #fff;
+	background: rgb(50,50,50);
+	border-radius: 50px;
+	position: absolute;
+	left: 0;
+	overflow: hidden;
+}
+/*------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------- 社区任务 ----------------------------------------*/
+body center #member {
+	width: 100%;
+	background: url("../images/you.jpeg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	padding-bottom: 50px;
+}
+body center #member #chengyuan {
+	width: 70%;
+	height: 200px;
+	background: rgba(255,255,255,0.5);
+	margin: 0 auto 50px auto;
+	vertical-align: top;
+}
+/*body center #member #ng {
+	width: 70%;
+	height: 50px;
+	margin: 0 auto;
+}*/
+/*------------------------------------------------------------------------------------------*/
